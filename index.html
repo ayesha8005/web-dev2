@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITESBLISS</title>
+	<link rel="shortcut icon" type="x-icon" href="logo (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+	<link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" href="styles3.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+
+	<div class="navbar">
+		<img src="logoSECOND (1).png" alt="Logo" class="lg">
+		<div class="nav-links">
+			<a href="#" class="nav-link">Home</a>
+			<a href="#" class="nav-link">About</a>
+			<a href="#" class="nav-link">Services</a>
+			<a href="#" class="nav-link">Contact</a>
+		</div>
+	</div>
+   
+    <header>
+        <div class="menu">
+            <!--toggle button-->
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo_prof">
+                <img src="logoSECOND (1).png" alt="">
+            </div>
+
+            
+
+            <div class="links">
+                <ul>
+                    <li><a class="active" href="#home"><i class="ri-home-line"></i> Home</a></li>
+                    <li><a href="#about"><i class="ri-star-line"></i> About</a></li>
+                    <li><a href="#culture"><i class="ri-sparkling-line"></i> Culture</a></li>
+                    <li><a href="#information"><i class="ri-information-line"></i> Information</a></li>
+                    <li><a href="#contact"><i class="ri-contacts-line"></i> Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+	
+
+	<main>
+		
+		<section id="home">
+			<div class="slider">
+				<!-- fade css -->
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>RAK Foods</h1>
+						<p>Flavors inspired by the seasons.</p>
+					</div>
+					<img class="imag" src="pic1 (1).png">
+				</div>
+				
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>RAK Foods</h1>
+						<p>Good food. Good mood.</p>
+					</div>
+					<img class="imag" src="3.png">
+				</div>
+				
+				<div class="myslide fade">
+					<div class="txt">
+						<h1>RAK Foods</h1>
+						<p>A pinch of passion in every dish.</p>
+					</div>
+					<img class="imag" src="pic1 (2).png" >
+				</div>
+				
+				
+				<!-- onclick js -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+				<div class="dotsbox" style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+					<span class="dot" onclick="currentSlide(4)"></span>
+					<span class="dot" onclick="currentSlide(5)"></span>
+				</div>
+				<!-- /onclick js -->
+			</div>
+		
+			<script src="script.js"></script>
+		</section>
+
+		<section id="about">
+			<div class="row">
+				<div class="imgWrapper">
+					<img class="imgsec" src="section2.jpeg" alt="">
+				</div>
+				<div class="contentWrapper">
+		
+					<div class="content">
+		
+						<span class="textWrapper">
+							<span></span>RAK Speciality
+						</span>
+						<h2>Foods & Drinks</h2>
+						<p>
+							Ras Al Khaimah offers a wide variety of dining options, including Michelin-starred
+							jewels, food trucks, authentic Arabic cuisine, Asian fusion, and European cuisine, as
+							well as pleasantly lively souks. Trade routes have historically made it possible for a
+							network of distant places to exchange national foods. Brave traders brought recipes, cooking 
+							methods, and spices.
+						</p>
+						<a href="#">Explore More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="culture">
+			
+			<section>
+				
+				<div class="swiper mySwiper container">
+					<h1 class="cultitle">Best Viewed Restaurants</h1>
+					<div class="swiper-wrapper content">
+						<div class="swiper-slide card">
+							<div class="box1"></div>
+							<div class="card-content">
+								<div class="image">
+									<img src="rest1.png" alt="">
+								</div>
+								<div class="media-icons">
+									<i class="fab fa-facebook"></i>
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-github"></i>
+								</div>
+								<div class="name-profession">
+									<span class="name">1484 by Puro</span>
+							
+								</div>
+								<div class="rating">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</div>
+								<div class="about">
+									<p>Perched atop the Jebel Jais Mountains in Ras Al Khaimah, 1484 by Puro is the tallest restaurant in the United Arab Emirates. The menu is creatively developed and offers a variety of international cuisines.</p>
+									
+								</div>
+								<div class="button b1">
+									<button class="aboutMe">Explore More</button>
+			
+								</div>
+							</div>
+						</div>
+	
+						<div class="swiper-slide card">
+							<div class="box2"></div>
+							<div class="card-content">
+								<div class="image">
+									<img src="rest2.png" alt="">
+								</div>
+								<div class="media-icons">
+									<i class="fab fa-facebook"></i>
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-github"></i>
+								</div>
+								<div class="name-profession">
+									<span class="name">UMI</span>
+								</div>
+								<div class="rating">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="about">
+									<p>A trendy Japanese restaurant serving delicacies created by the resident sushi and sashimi chef and playing host to a mesmerising Teppanyaki grill where masters of the craft are only too delighted to show off their culinary flair. </p>
+								</div>
+								<div class="button b2">
+									<button class="aboutMe">Explore More</button>
+								</div>
+							</div>
+						</div>
+	
+						<div class="swiper-slide card">
+							<div class="box3"></div>
+							<div class="card-content">
+								<div class="image">
+									<img src="rest3.png" alt="">
+								</div>
+								<div class="media-icons">
+									<i class="fab fa-facebook"></i>
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-github"></i>
+								</div>
+								<div class="name-profession">
+									<span class="name">Meze</span>
+								
+								</div>
+								<div class="rating">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="about">
+									<p>Experience authentic Turkish and Lebanese flavours at Meze, a stunning venue where the cuisine is brought to life by bright décor and an outdoor terrace with panoramic views of the Arabian Gulf.</p>
+								</div>
+								<div class="button b3">
+									<button class="aboutMe">Explore More</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-pagination"></div>
+			</section>
+	
+			<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	
+			<!-- initializing swiper slider -->
+			<script>
+				var swiper = new Swiper(".mySwiper", {
+				  slidesPerView: 3,
+				  spaceBetween: 30,
+				  grabCursor: true,
+				  autoplay: {
+					  delay: 2500,
+					  disableOnInteraction: false,
+					  pauseOnMouseEnter: true,
+					},
+				  slidesPerGroup: 1,
+				  loop: true,
+				  loopFillGroupWithBlank: true,
+				  pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				  },
+				  navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				  },
+				});
+			</script>
+		</section>
+
+		<section id="information">
+
+			<h2 class="flavours-heading">Flavours for Royalty</h2>
+			<section class="flavours-section">
+				
+				<div class="flavour-images">
+					<div class="flavour-image">
+						<img src="cof1.jpeg" alt="Flavour 1">
+						<div class="flavour-text">Cafes</div>
+					</div>
+					
+					<div class="flavour-image">
+						<img src="street.jpeg" alt="Flavour 2">
+						<div class="flavour-text">Street Food</div>
+					</div>
+					
+					<div class="flavour-image">
+						<img src="restfood.jpeg" alt="Flavour 3">
+						<div class="flavour-text">Dine-in</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section id="contact">
+			<footer>
+				<div class="contact-container">
+					<div class="contact-form">
+						<h3>Contact Us</h3>
+						<form action="/submit-contact-form" method="post">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" required>
+		
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+		
+							<label for="message">Message:</label>
+							<textarea id="message" name="message" rows="4" required></textarea>
+		
+							<button type="submit">Send Message</button>
+						</form>
+					</div>
+		
+					<div class="contact-info">
+						<h3>Contact Information</h3>
+						<p><strong>Address:</strong> Street Address, City, Country</p>
+						<p><strong>Phone:</strong> +1 (123) 456-7890</p>
+						<p><strong>Email:</strong> bitesbliss@example.com</p>
+		
+						<!-- Social Media Icons -->
+						<div class="social-icons">
+							<a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+							<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+							<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+		
+	</main>
+	
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
