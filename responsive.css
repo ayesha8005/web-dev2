@@ -56,9 +56,6 @@
     }
 }
 
-/* Default styles */
-
-/* Your existing styles.css content */
 
 /* Media Queries */
 /* Small devices (320px x 480px) */
@@ -647,7 +644,7 @@
         background-color: #f0eae2;
     }
 
-    /* Add more responsive styles as needed */
+    
 }
 
 /* Tablets and larger devices (768px x 1024px) */

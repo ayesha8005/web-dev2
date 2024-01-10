@@ -35,7 +35,7 @@
 			<a href="#" class="nav-link">Contact</a>
 		</div>
 	</div>
-   
+   <!-- Header section -->
     <header>
         <div class="menu">
             <!--toggle button-->
@@ -44,7 +44,7 @@
                 <span></span>
                 <span></span>
             </div>
-
+			<!-- Logo and navigation links -->
             <div class="logo_prof">
                 <img src="logoSECOND (1).png" alt="">
             </div>
@@ -63,7 +63,7 @@
         </div>
     </header>
 	
-
+	<!-- Main content section -->
 	<main>
 		
 		<section id="home">
@@ -76,7 +76,7 @@
 					</div>
 					<img class="imag" src="pic1 (1).png">
 				</div>
-				
+				<!-- Additional slides... -->
 				<div class="myslide fade">
 					<div class="txt">
 						<h1>RAK Foods</h1>
@@ -93,7 +93,7 @@
 					<img class="imag" src="pic1 (2).png" >
 				</div>
 				
-				
+				<!-- Navigation arrows and dots for slider -->
 				<!-- onclick js -->
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -107,11 +107,13 @@
 				</div>
 				<!-- /onclick js -->
 			</div>
-		
+			<!-- JavaScript script for slider functionality -->
 			<script src="script.js"></script>
 		</section>
 
+		<!-- About section -->
 		<section id="about">
+			<!-- Two-column layout with image and content -->
 			<div class="row">
 				<div class="imgWrapper">
 					<img class="imgsec" src="section2.jpeg" alt="">
@@ -137,13 +139,16 @@
 			</div>
 		</section>
 
+		<!-- Culture section -->
 		<section id="culture">
-			
+			<!-- Swiper slider for displaying restaurants -->
 			<section>
-				
+				<!-- Swiper container -->
 				<div class="swiper mySwiper container">
 					<h1 class="cultitle">Best Viewed Restaurants</h1>
+					<!-- Swiper wrapper for individual slides -->
 					<div class="swiper-wrapper content">
+						<!-- Individual restaurant card slides-->
 						<div class="swiper-slide card">
 							<div class="box1"></div>
 							<div class="card-content">
@@ -239,11 +244,13 @@
 						</div>
 					</div>
 				</div>
+				<!-- Swiper navigation buttons and pagination -->
 				<div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-pagination"></div>
 			</section>
-	
+
+			<!-- Swiper script for initialization -->
 			<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 	
 			<!-- initializing swiper slider -->
@@ -272,11 +279,12 @@
 			</script>
 		</section>
 
+		<!-- Information section -->
 		<section id="information">
-
+			<!-- Heading for flavors section -->
 			<h2 class="flavours-heading">Flavours for Royalty</h2>
 			<section class="flavours-section">
-				
+				<!-- Flavour images with text -->
 				<div class="flavour-images">
 					<div class="flavour-image">
 						<img src="cof1.jpeg" alt="Flavour 1">
@@ -295,11 +303,16 @@
 				</div>
 			</section>
 		</section>
+
+		<!-- Contact section -->
 		<section id="contact">
 			<footer>
+				<!-- Contact container with form and information -->
 				<div class="contact-container">
+					<!-- Contact form -->
 					<div class="contact-form">
 						<h3>Contact Us</h3>
+						<!-- Form fields for name, email, and message -->
 						<form action="/submit-contact-form" method="post">
 							<label for="name">Name:</label>
 							<input type="text" id="name" name="name" required>
@@ -309,11 +322,13 @@
 		
 							<label for="message">Message:</label>
 							<textarea id="message" name="message" rows="4" required></textarea>
-		
+							
+							<!-- Submit button -->
 							<button type="submit">Send Message</button>
 						</form>
 					</div>
-		
+					
+					<!-- Contact information -->
 					<div class="contact-info">
 						<h3>Contact Information</h3>
 						<p><strong>Address:</strong> Street Address, City, Country</p>
